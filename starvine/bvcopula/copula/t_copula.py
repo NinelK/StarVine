@@ -150,4 +150,4 @@ class StudentTCopula(CopulaBase):
 
 
 def ggamma(x):
-    return np.log(gammaln(x))
+    return np.exp(gammaln(x))
